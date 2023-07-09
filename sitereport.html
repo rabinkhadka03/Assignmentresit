@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>My Webpage</title>
+<style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;}
+#contactrep{
+margin-top: 16%;
+}
+header{
+background-color: rgb(160, 160, 160);
+width: 98.7vw;
+height: 24%;
+text-align: center;
+top: 0;
+left: 0;
+position: absolute;
+}
+p{
+color: #fff;
+}
+#smallpic{
+height: 90%;
+width: 10% ;
+border-radius: 75%;
+margin-left: 5ch;
+margin-top: 0.5%;
+float: left;
+}
+header ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+display: flex; /* Add flexbox to the navigation menu */
+justify-content: space-between; /* Distribute menu items evenly */
+align-items: center; /* Vertically center the menu items */
+}
+
+header li {
+display: inline-block; /* Change li elements to inline-block */
+width: 100%;
+}
+
+header li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 18px; /* Increase font size */
+}
+header{
+height: 24%;
+}
+header li a:hover {
+background-color:rgb(0, 0, 0) /* whitesmoke color */
+}
+#heading{
+font-size: 24px;
+}
+#first{
+    margin-top: 10px;
+}
+body {
+margin: 0;
+padding: 0;
+}
+.img{
+width: 100px;
+height: 100px;
+margin-bottom: 8%;
+}
+table {
+	width: 100%;
+}
+th, td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+th {
+	background-color: #000000;
+	color: #fff;
+}
+#citereport{
+	margin-top: 16%;
+}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="my photo.jpg" id="smallpic">
+		<h1 id="heading">My Website</h1>
+		<p id="first">Welcome to my portfolio!</p>
+		<nav>
+			<ul>
+				<li><a href="rabin2.html">Home</a></li>
+                <li><a href="protfolio.html">Portfolio</a></li>
+        <li><a href="work.html">Work experience</a></li>
+        <li><a href="contact.html">Contact</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="citereport">
+		<h1>Site Report</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Picture</th>
+				<th>Description</th>
+				<th>Reference</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="img">
+				<td>June 13, 2023</td>
+				<td><img src="reportimage (3).png"  height="250px"  "Picture 1"></td>
+				<td>The picture in the header had square shape which I made round using border-radius to 75%. The
+					paragraph needed to be in the center of the header which I looked up on chatGPT.
+				</td>
+				<td></td>
+			</tr>
+			<tr class="img">
+				<td>June 1, 2023</td>
+				<td><img src="reportimage (2).png" height="250px" alt="Picture 2"></td>
+				<td>Having problem to adjusting image size.I used W3 school and adjust my image height and width.
+					then i solve my problem with the help of w3 school.</td>
+				<td>W3 school</td>
+			</tr>
+			<tr class="img">
+				<td>june 3, 2023</td>
+				<td><img src="reportimage (1).png" height="250px" alt="Picture 3"></td>
+				<td>I was having trouble adjusting the heights of image to match with other images.
+					I used chat gpt so that I could match the heights as the width of all the images were already set.
+					I used the calc width/9*16 to match the ratio and sizes of all images.</td>
+				<td>Chat GPT</td>
+			</tr>
+			<tr class="img">
+				<td>june 13,</td>
+				<td><img src="reportimage (4).png" height="250px" alt="picture 4"></td>
+				<td>I tried using an image as the body background which didn't live upto my expectations
+					so I removed it.
+				</td>
+			</tr>
+			
+			
+		</tbody>
+	</table>
+	</div>
+</body>
+</html>

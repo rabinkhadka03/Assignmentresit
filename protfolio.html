@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>My Portfolio</title>
+    
+    <style>
+    #protfolio{
+        margin-top: 16%;
+      }
+      /* header css*/
+    header{
+    background-color: rgb(160, 160, 160);
+    width: 98.7vw;
+    height: 24%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+#h5{
+  color: #000000;
+}
+#smallpic{
+  height: 90%;
+  width: 10% ;
+  border-radius: 75%;
+  margin-left: 5ch;
+  margin-top: 0.5%;
+  float: left;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Add flexbox to the navigation menu */
+    justify-content: space-between; /* Distribute menu items evenly */
+    align-items: center; /* Vertically center the menu items */
+}
+
+header li {
+    display: inline-block; /* Change li elements to inline-block */
+    width: 100%;
+}
+
+header li a {
+    display: block;
+    color: rgb(71, 6, 6);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px; /* Increase font size */
+}
+
+header li a:hover {
+    background-color:rgb(0, 0, 0); /* whitesmoke color */
+    color:aliceblue;
+}
+#heading{
+  font-size: 24px;
+}
+#first{
+    margin-top: 10px;
+}
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("aveng.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display:flexbox;
+        
+      }
+      
+      .item{
+        width: calc(33.33% - 20px);
+        margin-bottom: 40px;
+        height: 33.33%;
+      }
+      .item img:hover{
+        scale: 110%;
+        border-style: solid;
+        border-color: blue;
+        border-width: 8px;
+      }
+  
+      body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;}
+    header{
+      height: 24%;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="my photo.jpg" id="smallpic">
+      <h1 id="heading">My Website</h1>
+      <h5 id="first">Welcome to my portfolio</h5>
+      <nav>
+        <ul>
+          <li><a href="rabin2.html">Home</a></li>
+          <li><a href="protfolio.html">Portfolio</a></li>
+          <li><a href="work.html">Work experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitereport.html">Site Report</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="protfolio">
+    <h1 style=" color: skyblue;text-align: center;">My Portfolio</h1>
+    <div class="container" style="display: flexbox;">
+
+        <img class="item" src="New Project (1).jpg" alt="project 1">
+      
+      
+        <img class="item" src="New Project (2).jpg" alt="project 2">
+        
+        <img class="item" src="New Project (4).jpg" alt="Project 3">
+        
+        <img class="item" src="New Project (5).jpg" alt="Project 4">
+      
+        <img class="item" src="team3.webp" alt="Project 5">
+
+        <img class="item" src="New Project.jpg" alt="Project 6">
+      
+      
+      
+      
+    </div>
+    </div>
+  </body>
+</html>

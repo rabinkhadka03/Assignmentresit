@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Contact Us</title>
+    <style>
+      body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;}
+      #contactrep{
+        margin-top: 16%;
+      }
+      header{
+    background-color: rgb(160, 160, 160);
+    width: 98.7vw;
+    height: 24%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+p{
+  color: #fff;
+}
+#smallpic{
+  height: 90%;
+  width: 10% ;
+  border-radius: 75%;
+  margin-left: 5ch;
+  margin-top: 0.5%;
+  float: left;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Add flexbox to the navigation menu */
+    justify-content: space-between; /* Distribute menu items evenly */
+    align-items: center; /* Vertically center the menu items */
+}
+
+header li {
+    display: inline-block; /* Change li elements to inline-block */
+    width: 100%;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px; /* Increase font size */
+}
+header{
+      height: 24%;
+    }
+    header li a:hover {
+    background-color:rgb(0, 0, 0) /* whitesmoke color */
+}
+#heading{
+  font-size: 24px;
+}
+#first{
+    margin-top: 10px;
+}
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      form {
+        align-items: center;
+      }
+      
+      label, input {
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 400px;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="my photo.jpg" id="smallpic">
+      <h1 id="heading">My Website</h1>
+      <p id="first">Welcome to my portfolio!</p>
+      <nav>
+        <ul>
+          <li><a href="rabin2.html">Home</a></li>
+          <li><a href="protfolio.html">Portfolio</a></li>
+          <li><a href="work.html">Work experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="sitereport.html">Site Report</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="contactrep">
+    
+    <h1 style="text-align: center;">Contact Us</h1></niv>
+    <div class="container">
+      <p>Please fill out the form below to contact us:</p>
+      <form action="mailto:yourname@yourdomain.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email id"><br><br>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" placeholder="Enter subject"><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="contact us"></textarea><br><br>
+        <input type="submit" value="Send Message">
+      </form>
+      <p>Or, you can reach us at:</p>
+      <ul>
+        <li>Email: <a href="mailto:rabin.2023115.nami@edu.np">rabin.2023115.nami@edu.np</a></li>
+        <li>Phone: 9823699627</li>
+        <li>Address: Aakasedhara, Kathmandu, Nepal</li>
+      </ul>
+    </div>
+    </div>
+  </body>
+</html>
